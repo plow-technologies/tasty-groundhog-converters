@@ -14,8 +14,7 @@ Maintainer  : Scott Murphy
 
 Database entries are persisted state, which means they are a serialization and should be tested for change.
 Here is an example of doing that.
-
-| -}
+ -}
 
 
 module Test.Tasty.Groundhog.Converters.Example  where
@@ -43,6 +42,8 @@ data Group = Group {
 data Person = Person { _unPerson :: String}
   deriving (Eq)
 
+
+-- | To Build up the converter we have to have an arbitrary instance
 instance Arbitrary Person where
   arbitrary = Person <$> arbitrary
 

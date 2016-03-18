@@ -4,10 +4,11 @@ Author:                 Scott Murphy <scottmurphy09@gmail.com>
 Maintainer:             Scott Murphy <scottmurphy09@gmail.com>
 License:                BSD3
 License-File:           LICENSE
-Synopsis:               Tasty Tests for groundhog converters 
+Category:               Test                        
+Synopsis:               Tasty Tests for groundhog converters                        
 Description:
             Groundhog converters are vulnerable to serialization changes.  Round trip tests and a SQLite test framework are provided
-            to help correct this.
+            to help correct this.  
 Cabal-Version:          >= 1.10
 Build-Type:             Simple
 Extra-Source-Files:     README.md, ChangeLog.md

@@ -17,7 +17,6 @@ Library
   HS-Source-Dirs:       src
   GHC-Options:          -Wall
   Exposed-Modules:      Test.Tasty.Groundhog.Converters
-                        Test.Tasty.Groundhog.Converters.Internal
                         Test.Tasty.Groundhog.Converters.Example
                    
 --  Other-Modules:        

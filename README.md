@@ -88,12 +88,3 @@ tastyTest = defaultMain allTests
 ```
 
 
-## How to run tests
-
-```
-cabal configure --enable-tests && cabal build && cabal test
-```
-
-## Contributing
-
-TODO: Write contribution instructions here
